@@ -1,0 +1,31 @@
+var db = require("../models");
+
+  module.exports = function(app) {
+    // Find all Doctors and return them to the user with res.json
+    app.get("/api/doctors", function(req, res) {
+      db.Doctors.findAll({}).then(function(dbDoctors) {
+        res.json(dbDoctors);
+      });
+    });
+
+    app.post("/api/doctors", function(req, res) {
+      //console.log(req.body);
+      // create takes an argument of an object describing the item we want to
+      // insert into our table. In this case we just we pass in an object with a text
+      // and complete property (req.body)
+      db.Doctors.create({
+       // text: req.body.text,
+      //  complete: req.body.complete
+      first_name: 'Jose',
+      last_name: 'Sanchez-Capo',
+      pass: 'Test123',
+      email: 'josesanchezcapo@me.com',
+      doctor_id: '123456',
+      specialties: 'General'
+      }).then(function(dbDoctors) {
+        res.json(dbDoctors);
+      });
+    });
+
+
+};

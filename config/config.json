@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "*G3ln2015",
+    "database": "docgo",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "usp4oicanycamf2o",
+    "password": "td67su09i12w7akl",
+    "database": "n5fv95g68acnwk5i",
+    "host": "jhdjjtqo9w5bzq2t.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

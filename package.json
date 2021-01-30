@@ -1,0 +1,34 @@
+{
+  "name": "doctor-go",
+  "version": "1.0.0",
+  "description": "The purpose of the app is to help organize and schedule appointments for Doctors who perform house calls. Patients can enter info such as Name, age, address, illness, pain level. The info is entered in a database that will help schedule appointments. Doctors have the option of adding clients and removing clients that have been seen. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josesanchezcapo/project-2-team-purple.git"
+  },
+  "author": "Victor Mendizabal, Jose Sanchez-Capo, Girverius McFarland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josesanchezcapo/project-2-team-purple/issues"
+  },
+  "homepage": "https://github.com/josesanchezcapo/project-2-team-purple#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "jquery": "^3.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.4.0"
+  }
+}

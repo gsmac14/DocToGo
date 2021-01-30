@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CMS - Express</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" media="screen" title="no title">
+    <script src="https://kit.fontawesome.com/6c18960413.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Imbue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body
+
+	style="background-image:url(https://www.technocrazed.com/wp-content/uploads/2015/12/Blue-Wallpaper-For-Background-4.jpg);">
+
+	<!-- Just an image -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			<a class="navbar-brand" href="/logout">
+			  Logout
+			</a>
+		  </div>
+		</div>
+	  </nav>
+
+	<!-- Content here -->
+	<div class="container">
+		<div class="row gx-5">
+			<div class="col" style="margin-right: 50px;">
+				<div class="p-3 border bg-light"
+					style="margin-top: 40px; height: 800px; width: 500px; text-align: center; font-family: 'Imbue', serif;">
+					<h1>Patients</h1>
+					<ul id="patients" style="text-align: left;">
+						<li id="li1" style="list-style-type:none;font-size: 25px;">
+							<div id="name1"><button id="btn1" type="button" style="margin-right: 30px; font-size: 20px;"
+								class="btn btn-danger">Select</button></div>
+								<div style="margin-top:5px;"></div>
+								<div class="card" style="width: 18rem;">
+									<div class="card-body">
+										<div id="symptoms1" style="margin-left: 0px;"></div>
+										<div id="painLevel1" style="margin-left: 0px;"></div>
+									</div>
+								</div>
+						</li>
+						<li id="li2" style="list-style-type:none;font-size: 25px;">
+							<div id="name2"><button id="btn2" type="button" style="margin-right: 30px; font-size: 20px;"
+								class="btn btn-danger">Select</button></div>
+								<div style="margin-top:5px;"></div>
+								<div class="card" style="width: 18rem;">
+									<div class="card-body">
+										<div id="symptoms2" style="margin-left: 0px;"></div>
+										<div id="painLevel2" style="margin-left: 0px;"></div>
+									</div>
+								</div>
+						</li>
+					<li id="li3" style="list-style-type:none;font-size: 25px;">
+						<div id="name3"><button id="btn3" type="button" style="margin-right: 30px; font-size: 20px;"
+							class="btn btn-danger">Select</button></div>
+							<div style="margin-top:5px;"></div>
+							<div class="card" style="width: 18rem;">
+								<div class="card-body">
+									<div id="symptoms3" style="margin-left: 0px;"></div>
+									<div id="painLevel3" style="margin-left: 0px;"></div>
+								</div>
+							</div>
+					</li>
+					</ul>
+				</div>
+			</div>
+			<!--	<div class=" col">
+									<div class="p-3" style="margin-top: 5px; width:75px;"></div>
+									<img src="./img/docgo.png" width="75" height="100">
+									<button style="border: none;"><img src="./img/schedule_patients.png" width="420"
+											height="345"></button>
+									<div><button type="button" class="btn btn-default btn-lg btn-success"
+											style="padding: 20px 42px; margin-top: 100px; margin-left: 100px;">
+											<span class="btn" aria-hidden="true">Select Patient</span>
+										</button></div>
+							</div>-->
+							<div class="col">
+								<div class="p-3 border bg-light"
+									style="margin-top: 40px; height: 800px;width: 500px;text-align: center;font-family: 'Imbue', serif;">
+									<h1>Patients scheduled</h1>
+									<form class="form-inline">
+										<div style="margin-top:40px;">
+											<ul id='patientsSelected' style="text-align: left;"></ul>
+										</div>
+									</form>
+								</div>
+							</div>
+				</div>
+			</div>
+
+			<!-- Custom Script -->
+			<script src="js/doctor_app.js" type="text/javascript"></script>
+</body>
+
+</html>

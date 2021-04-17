@@ -2,6 +2,8 @@
 
 ## Project Description
 
+![Alt text](/DocToGo.png)
+
 DoctorGo
 The purpose of the app is to help organize and schedule appointments for Doctors who perform house calls. Patients can enter info such as Name, age, address, illness, pain level. The info is entered in a database that will help schedule appointments. Doctors have the option of adding clients and removing clients that have been seen. 
 

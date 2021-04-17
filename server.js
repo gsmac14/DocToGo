@@ -7,6 +7,7 @@
 var express = require("express");
 var passport = require("./config/passport");
 var session = require("express-session");
+var compression = require("compression");
 
 // Sets up the Express App
 // =============================================================
@@ -22,6 +23,7 @@ app.use(express.json());
 
 // Static directory
 app.use(express.static("public"));
+app.use(compression());
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");
@@ -40,6 +42,7 @@ require("./routes/doc-app-api-routes.js")(app);
 require("./routes/patient-api-routes.js")(app);
 require("./routes/html-api-routes.js")(app);
 require("./routes/signin-api-routes.js")(app);
+
 
 
 // Syncing our sequelize models and then starting our Express app

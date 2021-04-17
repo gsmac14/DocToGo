@@ -1,6 +1,5 @@
 # Doc-To-Go!
 
- ````
 ## Project Description
 
 DoctorGo
@@ -29,6 +28,12 @@ npm install
 
 ````
 ````
+## Contributors
+[Girveirus McFarland](https://github.com/gsmac14)
+[Jose Sanchez-Capo](https://github.com/josesanchezcapo)
+[Victor Hugo](https://github.com/hugo2211)
+
+
 ## Questions
 For any questions, please reach out to me:
     Find me in GitHub: josesanchezcapo | [My GitHub Profile](josesanchezcapo) | [Email Me](Follow me in Github to obtain my email.)
